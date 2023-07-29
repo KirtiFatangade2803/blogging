@@ -6,6 +6,7 @@ import Write from './Write.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Thanks from './Thanks.js';
+import Singlepost from './Singlepost.js';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route exact path='/contact' element={<Contact/>}/> 
       <Route exact path='/single' element={<Single/>}/> 
       <Route exact path='/thanks' element={<Thanks/>}/>
+      <Route exact path='/singlepost' element={<Singlepost/>}/>
   </Routes>
   <Footer/>
      </BrowserRouter>

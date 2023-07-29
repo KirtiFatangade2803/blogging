@@ -1,5 +1,5 @@
 import './topbar.css';
-import Profile from './mangr.jpg'
+import Profile from './mangr.jpg';
 import { NavLink } from 'react-router-dom';
 import Logo1 from './b1.jpg'
 import Logo2 from './c1.png'

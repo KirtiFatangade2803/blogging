@@ -6,8 +6,9 @@ export default function Post() {
   return (
    <>
     <div className='post'>
+    <NavLink to='/single' className='link'>
 <img className='postimg' src={Postimg} alt='postImage'/>
-<NavLink to='singlepost'></NavLink>
+</NavLink>
    <div className='postinfo'>
    <div className='postcats'>
     <span className='postcat'>Community</span>
